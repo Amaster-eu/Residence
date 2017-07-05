@@ -5,6 +5,12 @@
 ![preview](https://amaster.eu/demo/Residence/img/intro.jpg)
 ![compatibility](https://amaster.eu/demo/img/compatible-3.jpg)
 
+<p align="center">
+  <a href="https://github.com/Amaster-eu/Residence"><img src="https://amaster.eu/demo/img/en-language-inactive.png" /></a><a href="https://github.com/Amaster-eu/Residence/blob/dev/README_RU.md#top"><img src="https://amaster.eu/demo/img/ru-language-active.png" /></a>
+</p>
+
+---
+
 [Live demo](https://amaster.eu/demo/Residence/)
 
 Проект выполнен согласно технического задания

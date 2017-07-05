@@ -5,6 +5,12 @@ Residence - Business center at Rublevka: the most striking commercial real estat
 ![preview](https://amaster.eu/demo/Residence/img/intro.jpg)
 ![compatibility](https://amaster.eu/demo/img/compatible-3.jpg)
 
+<p align="center">
+  <a href="https://github.com/Amaster-eu/Residence"><img src="https://amaster.eu/demo/img/en-language-active.png" /></a><a href="https://github.com/Amaster-eu/Residence/blob/dev/README_RU.md#top"><img src="https://amaster.eu/demo/img/ru-language-inactive.png" /></a>
+</p>
+
+---
+
 [Live demo](https://amaster.eu/demo/Residence/)
 
 The project is executed according to the terms of reference
