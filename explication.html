@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="robots" content="noindex">
+    <title>Экспликации</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body class="explicat">
+    <nav>
+        <div class="menu-icon-wrapper">
+            <div class="menu-icon-trigger">
+                <div class="burger">
+                    <div class="rectA"></div>
+                    <div class="rectB"></div>
+                    <div class="rectC"></div>
+                </div>
+            </div>
+        </div>
+        <div class="main-menu slideInRight">
+            <ul>
+                <li class="nav-title">Деловой Центр</li>
+                <li><a class="hover" href="#">Спецификация</a></li>
+                <li><a class="hover" href="#">Арендаторы</a></li>
+                <li><a class="hover" href="#">Инфраструктура</a></li>
+                <li><a class="hover" href="#">Управляющая Компания</a></li>
+            </ul>
+            <ul>
+                <li class="nav-title">Аренда</li>
+                <li><a class="hover" href="#">Актуальная Информация о свободных площадях</a></li>
+            </ul>
+            <ul class="contacts">
+                <li class="nav-title">Контакты</li>
+                <li>Московская Область Рублево-Успенское шоссе с. Усово, стр.100</li>
+                <li>+7(498)726-20-20
+                    <br>+7(495)634-94-75</li>
+                <li><a class="hover" href="mailto:office@residence-rublevka.ru">office@residence-rublevka.ru</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="block-left move">
+            <a class="moveToHome" href="/">
+                <img src="img/logo-1440.png" alt="Logo">
+            </a>                        
+        </div>
+        <div class="zoom fadeInRight">
+            <a id="zoom-in" class="icon-zoom-in" role="button">
+                <svg width="38px" height="38px" viewBox="0 0 38 38" xmlns="http://www.w3.org/2000/svg">
+                    <circle class="circle" cx="19" cy="19" r="19"></circle>
+                    <path d="M26.151002,12.848998 L12.4286623,26.5713377" stroke="#FFFFFF" stroke-linecap="square" transform="translate(19.500000, 19.500000) rotate(45.000000) translate(-19.500000, -19.500000) "></path>
+                    <path d="M19,28.9059372 L19,9.49961833" stroke="#FFFFFF" stroke-linecap="square"></path>
+                </svg>
+            </a>
+            <a id="reset" class="reset" role="button"><span>Сброс</span></a>
+            <a id="zoom-out" class="icon-zoom-out" role="button">
+                <svg width="38px" height="38px" viewBox="0 0 38 38" xmlns="http://www.w3.org/2000/svg">
+                    <circle class="circle" cx="19" cy="19" r="19"></circle>
+                    <path d="M26.151002,12.848998 L12.4286623,26.5713377" stroke="#FFFFFF" stroke-linecap="square" transform="translate(19.500000, 19.500000) rotate(45.000000) translate(-19.500000, -19.500000) "></path>
+                </svg>
+            </a>
+        </div>
+
+        <div id="imap"></div>
+
+    </main>
+    <footer>
+        <aside class="fadeInRight">
+            <ul>
+                <li><a class="hover on" role="button" data-level="0">цокольный этаж</a></li>
+                <li><a class="hover" role="button" data-level="1">первый этаж</a></li>
+                <li><a class="hover" role="button" data-level="2">второй этаж</a></li>
+                <li><a class="hover" role="button" data-level="3">третий этаж</a></li>
+                <li><a class="hover" role="button" data-level="4">четвертый этаж</a></li>
+            </ul>
+        </aside><!--  
+        --><div class="info fadeInUp">
+            <h2>Экспликации</h2>
+            <h3>Цокольный этаж</h3>
+            <div class="moved-up">
+                <dl class="column">
+                    <dt>Здание</dt>
+                    <dd>А</dd>
+                    <dt>Площадь</dt>
+                    <dd>600 м2</dd>
+                    <dt>Ставка</dt>
+                    <dd>120 000 руб.</dd>
+                    <dt>Тип аренды</dt>
+                    <dd>Прямая</dd>
+                    <dt>Состояние лота</dt>
+                    <dd>Готово</dd>
+                    <dt>Статус лота</dt>
+                    <dd>Свободно</dd>
+                </dl>
+            </div>
+        </div>
+    </footer>
+    <a class="moveBack" role="button" onclick="history.go(-1)"><span>вернуться</span></a>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <script src="js/svg-pan-zoom.min.js"></script>
+    <script src="js/svgPanZoom.js"></script>
+    <script src="js/pages.js"></script>
+
+
+    <script>
+    /* SIZE */
+    function size(){"localhost"!==location.hostname&&"127.0.0.1"!==location.hostname||(document.getElementById("size").innerHTML=w2+"×"+h2+" px")}var w2=window.innerWidth,h2=window.innerHeight;window.onload=function(){var e=document.createElement("div");e.id="size",e.style.position="absolute",e.style.top="10px",e.style.left="10px",e.style.zIndex=9999,e.style.color="#0f0",e.style.fontSize="12px",document.body.insertBefore(e,document.body.firstChild),size()},window.onresize=function(){w2=window.innerWidth,h2=window.innerHeight,size()};
+    </script>
+</body>
+
+</html>

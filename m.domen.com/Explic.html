@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="robots" content="noindex">
+    <title>Экспликации</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body class="page exp">
+    <nav>
+        <div class="menu-icon-wrapper">
+            <div class="menu-icon-trigger">
+                <div class="burger">
+                    <div class="rectA"></div>
+                    <div class="rectB"></div>
+                    <div class="rectC"></div>
+                </div>
+            </div>
+        </div>
+        <div class="main-menu">
+            <ul>
+                <li class="nav-title">Деловой Центр</li>
+                <li><a href="Specification.html">Спецификация</a></li>
+                <li><a href="Lessees.html">Инфраструктура</a></li>
+                <li><a href="Infrastructure.html">Арендаторы</a></li>
+                <li><a href="Management.html">Управляющая Компания</a></li>
+                <li><a href="index.html#contact">Контакты</a></li>
+            </ul>
+            <ul>
+                <li class="nav-title">Аренда</li>
+                <li><a href="Place.html">Актуальная Информация о свободных площадях</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <header>
+            <a class="logo" href="/"></a>
+        </header>
+        <div class="zoom">
+            <a id="zoom-in" class="icon-zoom-in" role="button">
+                <svg width="38px" height="38px" viewBox="0 0 38 38" xmlns="http://www.w3.org/2000/svg">
+                    <circle class="circle" cx="19" cy="19" r="19"></circle>
+                    <path d="M26.151002,12.848998 L12.4286623,26.5713377" stroke="#FFFFFF" stroke-linecap="square" transform="translate(19.500000, 19.500000) rotate(45.000000) translate(-19.500000, -19.500000) "></path>
+                    <path d="M19,28.9059372 L19,9.49961833" stroke="#FFFFFF" stroke-linecap="square"></path>
+                </svg>
+            </a>
+            <a id="reset" class="reset" role="button"><span>Сброс</span></a>
+            <a id="zoom-out" class="icon-zoom-out" role="button">
+                <svg width="38px" height="38px" viewBox="0 0 38 38" xmlns="http://www.w3.org/2000/svg">
+                    <circle class="circle" cx="19" cy="19" r="19"></circle>
+                    <path d="M26.151002,12.848998 L12.4286623,26.5713377" stroke="#FFFFFF" stroke-linecap="square" transform="translate(19.500000, 19.500000) rotate(45.000000) translate(-19.500000, -19.500000) "></path>
+                </svg>
+            </a>
+        </div>
+        <div id="imap"></div>
+        <article>
+            <h1>Экспликации</h1>
+            <h3>Цокольный этаж</h3>
+            <dl>
+                <dt>Здание</dt>
+                <dd>А</dd>
+                <dt>Площадь</dt>
+                <dd>600 м2</dd>
+                <dt>Ставка</dt>
+                <dd>120 000 руб.</dd>
+                <dt>Тип аренды</dt>
+                <dd>Прямая</dd>
+                <dt>Состояние лота</dt>
+                <dd>Готово</dd>
+                <dt>Статус лота</dt>
+                <dd>Свободно</dd>
+            </dl>
+        </article>
+        <footer>
+            <a class="moveBack" role="button" onclick="history.go(-1)"><span>вернуться</span></a>
+        </footer>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/svg-pan-zoom.min.js"></script>
+    <script src="js/svgPanZoom.js"></script>
+    <script>
+    $(document).ready(function() {
+        $('nav .menu-icon-wrapper').on('click', function() {
+            $('.main-menu').toggleClass('fadeInRight');
+            $('nav .menu-icon-trigger').toggleClass('close');
+            if ($('.main-menu').hasClass('fadeInRight')) {
+                setTimeout(function() {
+                    $('nav .menu-icon-trigger').addClass('rotate45');
+                }, 500);
+            } else {
+                $('nav .menu-icon-trigger').removeClass('rotate45');
+            }
+            return false;
+        });
+    });
+    </script>
+</body>
+
+</html>

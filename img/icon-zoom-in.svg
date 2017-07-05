@@ -1,0 +1,5 @@
+<svg width="38px" height="38px" viewBox="0 0 38 38" xmlns="http://www.w3.org/2000/svg">
+    <circle class="circle" cx="19" cy="19" r="19"></circle>
+    <path d="M26.151002,12.848998 L12.4286623,26.5713377" stroke="#FFFFFF" stroke-linecap="square" transform="translate(19.500000, 19.500000) rotate(45.000000) translate(-19.500000, -19.500000) "></path>
+    <path d="M19,28.9059372 L19,9.49961833" stroke="#FFFFFF" stroke-linecap="square"></path>
+</svg>
