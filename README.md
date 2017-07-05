@@ -32,8 +32,9 @@ Download: [technical-task.pdf](https://amaster.eu/demo/Residence/pdf/technical-t
 - "Contacts" slide
 
 ## The layout is in [Sketch](https://www.sketchapp.com/)
-![preview](https://amaster.eu/demo/Residence/img/tt-sketch.jpg)
+![preview](https://amaster.eu/demo/Residence/img/tt-sketch-2.jpg)
 Download: [Residense_web.sketch.zip](https://amaster.eu/demo/Residence/sketch/Residense_web.sketch.zip) (14.5MB)
+
 Download: [Residense_mobile.sketch.zip](https://amaster.eu/demo/Residence/sketch/Residense_mobile.sketch.zip) (8.9MB)
 
 ## About the response:

@@ -32,7 +32,7 @@
 - Слайд "Контакты"
 
 ## Макет выполнен в программе [Sketch](https://www.sketchapp.com/)
-![preview](https://amaster.eu/demo/Residence/img/tt-sketch.jpg)
+![preview](https://amaster.eu/demo/Residence/img/tt-sketch-2.jpg)
 Скачать: [Residense_web.sketch.zip](https://amaster.eu/demo/Residence/sketch/Residense_web.sketch.zip) (14.5MB)
 
 Скачать: [Residense_mobile.sketch.zip](https://amaster.eu/demo/Residence/sketch/Residense_mobile.sketch.zip) (8.9MB)
