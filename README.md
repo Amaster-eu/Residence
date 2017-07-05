@@ -6,7 +6,7 @@ Residence - Business center at Rublevka: the most striking commercial real estat
 ![compatibility](https://amaster.eu/demo/img/compatible-3.jpg)
 
 <p align="center">
-  <a href="https://github.com/Amaster-eu/Residence"><img src="https://amaster.eu/demo/img/en-language-active.png" /></a><a href="https://github.com/Amaster-eu/Residence/blob/dev/README_RU.md#top"><img src="https://amaster.eu/demo/img/ru-language-inactive.png" /></a>
+  <a href="https://github.com/Amaster-eu/Residence"><img src="https://amaster.eu/demo/img/en-language-active.png" /></a><a href="https://github.com/Amaster-eu/Residence/blob/master/README_RU.md#top"><img src="https://amaster.eu/demo/img/ru-language-inactive.png" /></a>
 </p>
 
 ---
@@ -21,20 +21,20 @@ Download: [technical-task.pdf](https://amaster.eu/demo/Residence/pdf/technical-t
 - Slide "Residence"
 - Slide "Without city noise"
 - Slide "Business Environment"
--- Pop-up Specification
--- Pop-up Infrastructure
--- Pop-up Tenants
--- Pop-up Management Company
+  - Pop-up Specification
+  - Pop-up Infrastructure
+  - Pop-up Tenants
+  - Pop-up Management Company
 - The "My Residence" slide (the catalog of premises)
--- Pop-up Room Card
--- Pop-up Room explication
--- Pop-up Explication of the whole complex
+  - Pop-up Room Card
+  - Pop-up Room explication
+  - Pop-up Explication of the whole complex
 - "Contacts" slide
 
 ## The layout is in [Sketch](https://www.sketchapp.com/)
 ![preview](https://amaster.eu/demo/Residence/img/tt-sketch.jpg)
-Download: [Residense_web.sketch](https://amaster.eu/demo/Residence/sketch/Residense_web.sketch) (14.5MB)
-Download: [Residense_mobile.sketch](https://amaster.eu/demo/Residence/sketch/Residense_mobile.sketch) (8.9MB)
+Download: [Residense_web.sketch.zip](https://amaster.eu/demo/Residence/sketch/Residense_web.sketch.zip) (14.5MB)
+Download: [Residense_mobile.sketch.zip](https://amaster.eu/demo/Residence/sketch/Residense_mobile.sketch.zip) (8.9MB)
 
 ## About the response:
 In the desktop version, there is a proportional change in the size of almost all elements on the grid. The exception is some text elements. Versions for tablets and phones are separate. The minimum width of the desktop version is limited to the tablet (768px). Then just cut it. The maximum resolution, as such, is not. Just after 1440px, we proportionally increase the entire page.
@@ -48,7 +48,7 @@ The mobile version must be on the m.domain.com subdomain. That is, it opens only
 - The template has cross-browser compatibility and responsive. 
 - Template based on clean and modern design technique. 
 - All code commented. 
-- Template checking: no errors or warnings. Please see: [https://validator.w3.org](https://validator.w3.org/)
+- Template checking: no errors or warnings. Please see: [https://validator.w3.org](https://validator.w3.org/nu/?doc=https%3A%2F%2Famaster.eu%2Fdemo%2FResidence%2F)
 
 ## Credits:
 - jQuery v1.12.4 – [http://jquery.com](http://jquery.com/) 

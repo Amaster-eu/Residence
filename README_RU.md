@@ -6,14 +6,14 @@
 ![compatibility](https://amaster.eu/demo/img/compatible-3.jpg)
 
 <p align="center">
-  <a href="https://github.com/Amaster-eu/Residence"><img src="https://amaster.eu/demo/img/en-language-inactive.png" /></a><a href="https://github.com/Amaster-eu/Residence/blob/dev/README_RU.md#top"><img src="https://amaster.eu/demo/img/ru-language-active.png" /></a>
+  <a href="https://github.com/Amaster-eu/Residence"><img src="https://amaster.eu/demo/img/en-language-inactive.png" /></a><a href="https://github.com/Amaster-eu/Residence/blob/master/README_RU.md#top"><img src="https://amaster.eu/demo/img/ru-language-active.png" /></a>
 </p>
 
 ---
 
-[Live demo](https://amaster.eu/demo/Residence/)
+[Демо](https://amaster.eu/demo/Residence/)
 
-Проект выполнен согласно технического задания
+Проект выполнен согласно условиям технического задания (ТЗ):
 ![preview](https://amaster.eu/demo/Residence/img/tt-pdf.jpg)
 Скачать: [technical-task.pdf](https://amaster.eu/demo/Residence/pdf/technical-task.pdf) (905KB) [Язык: русский]
 
@@ -21,23 +21,24 @@
 - Слайд "Резиденция"
 - Слайд "Без городского шума"
 - Слайд "Деловая среда"
--- Pop-up Спецификация
--- Pop-up Инфраструктура
--- Pop-up Арендаторы
--- Pop-up Управляющая компания
+  - Pop-up Спецификация
+  - Pop-up Инфраструктура
+  - Pop-up Арендаторы
+  - Pop-up Управляющая компания
 - Слайд "Моя резиденция" (каталог помещений)
--- Pop-up Карточка помещения
--- Pop-up Экспликация помещения
--- Pop-up Экспликация всего комплекса
+  - Pop-up Карточка помещения
+  - Pop-up Экспликация помещения
+  - Pop-up Экспликация всего комплекса
 - Слайд "Контакты"
 
 ## Макет выполнен в программе [Sketch](https://www.sketchapp.com/)
 ![preview](https://amaster.eu/demo/Residence/img/tt-sketch.jpg)
-Скачать: [Residense_web.sketch](https://amaster.eu/demo/Residence/sketch/Residense_web.sketch) (14.5MB)
-Скачать: [Residense_mobile.sketch](https://amaster.eu/demo/Residence/sketch/Residense_mobile.sketch) (8.9MB)
+Скачать: [Residense_web.sketch.zip](https://amaster.eu/demo/Residence/sketch/Residense_web.sketch.zip) (14.5MB)
+
+Скачать: [Residense_mobile.sketch.zip](https://amaster.eu/demo/Residence/sketch/Residense_mobile.sketch.zip) (8.9MB)
 
 ## Про респонсив:
-В desktop версии, происходит пропорциональное изменение размера практически всех элементов по сетке. Исключение составляют некоторые текстовые элементы. Версии для планшетов и телефонов обособлены. Минимальную ширину desktop-версии ограничиваем планшетной (768px). Дальше просто подрезаем. Максимального разрешения, как такового, нет. Просто после 1440px пропорционально увеличиваем всю страницу.
+В desktop-версии, происходит пропорциональное изменение размера практически всех элементов по сетке. Исключение составляют некоторые текстовые элементы. Версии для планшетов и телефонов обособлены. Минимальную ширину desktop-версии ограничиваем планшетной (768px). Дальше просто подрезаем. Максимального разрешения, как такового, нет. Просто после 1440px пропорционально увеличиваем всю страницу.
 
 ## Про мобильную версию:
 Мобильная версия должна быть на поддомене m.domen.com. То есть, открывается только на смартфонах.
@@ -48,7 +49,7 @@
 - Шаблон кросс-браузерный и подстраивается под размеры окна просмотра.
 - В основе шаблона - современная техника дизайна.
 - Код содержит комментарии.
-- Шаблон не имеет никаких ошибок или предупреждений. Пожалуйста, смотрите:[https://validator.w3.org](https://validator.w3.org/)
+- Шаблон не имеет никаких ошибок или предупреждений. Пожалуйста, смотрите: [https://validator.w3.org](https://validator.w3.org/nu/?doc=https%3A%2F%2Famaster.eu%2Fdemo%2FResidence%2F)
 
 ## Используется:
 - jQuery v1.12.4 – [http://jquery.com](http://jquery.com/) 
