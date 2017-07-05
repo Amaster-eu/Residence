@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="robots" content="noindex">
+    <title>Помещение</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body class="page">
+    <nav>
+        <div class="menu-icon-wrapper">
+            <div class="menu-icon-trigger">
+                <div class="burger">
+                    <div class="rectA"></div>
+                    <div class="rectB"></div>
+                    <div class="rectC"></div>
+                </div>
+            </div>
+        </div>
+        <div class="main-menu">
+            <ul>
+                <li class="nav-title">Деловой Центр</li>
+                <li><a href="Specification.html">Спецификация</a></li>
+                <li><a href="Lessees.html">Инфраструктура</a></li>
+                <li><a href="Infrastructure.html">Арендаторы</a></li>
+                <li><a href="Management.html">Управляющая Компания</a></li>
+                <li><a href="index.html#contact">Контакты</a></li>
+            </ul>
+            <ul>
+                <li class="nav-title">Аренда</li>
+                <li><a href="Place.html">Актуальная Информация о свободных площадях</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <header>
+            <a class="logo" href="/"></a>
+        </header>
+        <ul class="bxslider">
+            <li><img src="img/place.jpg" alt="Place" /></li>
+            <li><img src="img/place.jpg" alt="Place" /></li>
+            <li><img src="img/place.jpg" alt="Place" /></li>
+            <li><img src="img/place.jpg" alt="Place" /></li>
+            <li><img src="img/place.jpg" alt="Place" /></li>
+        </ul>
+        <article>
+            <h3><span class="type">Офисное помещение</span> <span class="area">1200 м2</span></h3>
+            <p>Эффективное сочетание эксклюзивности концепции проекта, уникального архитектурного решения, современных инженерных систем экстра класса.</p>
+            <dl>
+                <dt>Здание</dt>
+                <dd>А</dd>
+                <dt>Площадь</dt>
+                <dd>600 м2</dd>
+                <dt>Ставка</dt>
+                <dd>120 000 руб.</dd>
+                <dt>Тип аренды</dt>
+                <dd>Прямая</dd>
+                <dt>Состояние лота</dt>
+                <dd>Готово</dd>
+                <dt>Статус лота</dt>
+                <dd>Свободно</dd>
+            </dl>
+            <a class="explication" href="Explic.html">Экспликации</a>
+            <a class="icon-share" role="button">
+                <svg width="38px" height="38px" viewBox="0 0 38 38" xmlns="http://www.w3.org/2000/svg">
+                    <circle class="circle" cx="19" cy="19" r="19"></circle>
+                    <g stroke-width="1" transform="translate(11.000000, 10.000000)">
+                        <path d="M4,2 L17,10" stroke="#FFFFFF" fill="#D8D8D8"></path>
+                        <path d="M17,8 L4,16" stroke="#FFFFFF" fill="#D8D8D8"></path>
+                        <path d="M15.75,6.73381295 C14.508,6.73381295 13.5,7.73864748 13.5,8.97841727 C13.5,10.2181871 14.508,11.2230216 15.75,11.2230216 C16.992,11.2230216 18,10.2181871 18,8.97841727 C18,7.73864748 16.992,6.73381295 15.75,6.73381295 Z" fill="#FFFFFF"></path>
+                        <path d="M4.5,13.4676259 C3.25725,13.4676259 2.25,14.4724604 2.25,15.7122302 C2.25,16.952 3.25725,17.9568345 4.5,17.9568345 C5.742,17.9568345 6.75,16.952 6.75,15.7122302 C6.75,14.4724604 5.742,13.4676259 4.5,13.4676259 Z" fill="#FFFFFF"></path>
+                        <path d="M6.75,2.24460432 C6.75,3.4843741 5.742,4.48920863 4.5,4.48920863 C3.258,4.48920863 2.25,3.4843741 2.25,2.24460432 C2.25,1.00483453 3.258,0 4.5,0 C5.742,0 6.75,1.00483453 6.75,2.24460432 Z" fill="#FFFFFF"></path>
+                    </g>
+                </svg>
+            </a>
+        </article>
+        <footer>
+            <a class="moveBack" role="button" onclick="history.go(-1)"><span>вернуться</span></a>
+        </footer>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        $('.bxslider').bxSlider({
+            pager: false
+        });
+        $('nav .menu-icon-wrapper').on('click', function() {
+            $('.main-menu').toggleClass('fadeInRight');
+            $('nav .menu-icon-trigger').toggleClass('close');
+            if ($('.main-menu').hasClass('fadeInRight')) {
+                setTimeout(function() {
+                    $('nav .menu-icon-trigger').addClass('rotate45');
+                }, 500);
+            } else {
+                $('nav .menu-icon-trigger').removeClass('rotate45');
+            }
+            return false;
+        });
+    });
+    </script>
+</body>
+
+</html>
