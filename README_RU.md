@@ -2,11 +2,11 @@
 
 Резиденция - деловой центр на Рублевке: самый ярких проект коммерческой недвижимости, уникальное архитектурное решение, современные инженерные системы экстра класса, престижное местоположение.
 
-![preview](https://amaster.eu/demo/Residence/img/intro.jpg)
-![compatibility](https://amaster.eu/demo/img/compatible-3.jpg)
+![preview](https://github.com/Amaster-eu/Residence/blob/master/img/intro.jpg)
+![compatibility](https://github.com/Amaster-eu/Residence/blob/master/img/compatible-3.jpg)
 
 <p align="center">
-  <a href="https://github.com/Amaster-eu/Residence"><img src="https://amaster.eu/demo/img/en-language-inactive.png" /></a><a href="https://github.com/Amaster-eu/Residence/blob/master/README_RU.md#top"><img src="https://amaster.eu/demo/img/ru-language-active.png" /></a>
+  <a href="https://github.com/Amaster-eu/Residence"><img src="https://github.com/Amaster-eu/Residence/blob/master/img/en-language-inactive.png" /></a><a href="https://github.com/Amaster-eu/Residence/blob/master/README_RU.md#top"><img src="https://github.com/Amaster-eu/Residence/blob/master/img/ru-language-active.png" /></a>
 </p>
 
 ---

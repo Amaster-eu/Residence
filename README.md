@@ -2,11 +2,11 @@
 
 Residence - Business center at Rublevka: the most striking commercial real estate project, unique architectural solution, modern engineering systems of extra class, prestigious location.
 
-![preview](https://amaster.eu/demo/Residence/img/intro.jpg)
-![compatibility](https://amaster.eu/demo/img/compatible-3.jpg)
+![preview](https://github.com/Amaster-eu/Residence/blob/master/img/intro.jpg)
+![compatibility](https://github.com/Amaster-eu/Residence/blob/master/img/compatible-3.jpg)
 
 <p align="center">
-  <a href="https://github.com/Amaster-eu/Residence"><img src="https://amaster.eu/demo/img/en-language-active.png" /></a><a href="https://github.com/Amaster-eu/Residence/blob/master/README_RU.md#top"><img src="https://amaster.eu/demo/img/ru-language-inactive.png" /></a>
+  <a href="https://github.com/Amaster-eu/Residence"><img src="https://github.com/Amaster-eu/Residence/blob/master/img/en-language-active.png" /></a><a href="https://github.com/Amaster-eu/Residence/blob/master/README_RU.md#top"><img src="https://github.com/Amaster-eu/Residence/blob/master/img/ru-language-inactive.png" /></a>
 </p>
 
 ---
