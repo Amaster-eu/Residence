@@ -14,7 +14,7 @@ Residence - Business center at Rublevka: the most striking commercial real estat
 [Live demo](https://amaster.eu/demo/Residence/)
 
 The project is executed according to the terms of reference
-![preview](https://amaster.eu/demo/Residence/img/tt-pdf.jpg)
+![preview](https://github.com/Amaster-eu/Residence/blob/master/img/tt-pdf.jpg)
 Download: [technical-task.pdf](https://amaster.eu/demo/Residence/pdf/technical-task.pdf) (905KB) [Russian language]
 
 ## Site Map
@@ -32,7 +32,7 @@ Download: [technical-task.pdf](https://amaster.eu/demo/Residence/pdf/technical-t
 - "Contacts" slide
 
 ## The layout is in [Sketch](https://www.sketchapp.com/)
-![preview](https://amaster.eu/demo/Residence/img/tt-sketch-2.jpg)
+![preview](https://github.com/Amaster-eu/Residence/blob/master/img/tt-sketch-2.jpg)
 Download: [Residense_web.sketch.zip](https://amaster.eu/demo/Residence/sketch/Residense_web.sketch.zip) (14.5MB)
 
 Download: [Residense_mobile.sketch.zip](https://amaster.eu/demo/Residence/sketch/Residense_mobile.sketch.zip) (8.9MB)
